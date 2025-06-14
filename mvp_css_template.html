@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en" color-mode="user">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/mvp.css"> 
+    <title>MVP.css</title>
+    <style>
+        .adjust-centre {
+            text-align: center;
+            margin-left: auto;
+            justify-content: flex-end;
+        }
+        .adjust-right {
+            text-align: right;
+            margin-left: auto;
+            justify-content: flex-end;
+        }
+        .intro {
+            width: 100%;
+        }
+        .featured {
+            display: grid;
+            grid-template-columns: auto auto auto;
+            column-gap: 10px;
+        }
+        .clickable-content {
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <main class="container">
+        <nav>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+            </ul>
+            <ul>
+                <li><span class="clickable-content"><i class="fab fa-github fa-xl"></i></span></li>
+                <li><span class="clickable-content"><i class="fab fa-linkedin fa-xl"></i></span></li>
+            </ul>
+        </nav>
+        <div class="adjust-centre">
+            <hgroup>
+                <h1><strong>My blog</strong></h1>
+                <p><i>My top skills</i></p>
+            </hgroup>
+        </div>
+        <br>
+        <div>
+            <section>
+                <aside class="intro">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </aside>
+            </section>
+            <div>
+                <h2><strong>Latest articles</strong></h2>
+            </div>
+            <br>
+            <ul>
+                <li><code>2024-11-27</code> &emsp; <a href="#">Lorem ipsum dolor sit amet</a> &emsp; <kbd>Tag</kbd> <kbd>Tag</kbd></li>
+                <li><code>2024-11-27</code> &emsp; <a href="#">Consectetur adipiscing elit</a> &emsp; <kbd>Tag</kbd> <kbd>Tag</kbd></li>
+                <li><code>2024-11-27</code> &emsp; <a href="#">Sed do eiusmod tempor incididunt</a> &emsp; <kbd>Tag</kbd> <kbd>Tag</kbd></li>
+                <li><code>2024-11-27</code> &emsp; <a href="#">Ut enim ad minim veniam</a> &emsp; <kbd>Tag</kbd> <kbd>Tag</kbd></li>
+            </ul>
+            <br>
+            <div>
+                <h2><strong>Featured articles</strong></h2>
+            </div>
+            <section class="featured">
+                <aside class="adjust-centre">
+                    <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h4>
+                    <p><small>Ut enim ad minim veniam</small></p>
+                    <a class="outline" href="" target="_blank"><i>Read</i></a>
+                </aside>
+                <aside class="adjust-centre">
+                    <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h4>
+                    <p><small>Ut enim ad minim veniam</small></p>
+                    <a class="outline" href="" target="_blank"><i>Read</i></a>
+                </aside>
+                <aside class="adjust-centre">
+                    <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h4>
+                    <p><small>Ut enim ad minim veniam</small></p>
+                    <a class="outline" href="" target="_blank"><i>Read</i></a>
+                </aside>
+            </section>
+        </div>
+        <footer>
+            <p class="adjust-centre">&copy; Me 2025</p>
+        </footer>
+    </main>
+</body>
+</html>
