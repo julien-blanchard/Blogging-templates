@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+    <title>Milligram</title>
+    <style>
+        .adjust-centre {
+            text-align: center;
+            margin-left: auto;
+            justify-content: flex-end;
+        }
+        .clickable-content {
+            cursor: pointer;
+        }
+        .featured {
+            display: grid;
+            grid-template-columns: auto auto;
+            column-gap: 10px;
+        }
+    </style>
+</head>
+<body>
+    <main class="container">
+        <nav class="navigation">
+            <br>
+            <a class="navigation-item">Home</a>
+            <a class="navigation-item" href="">About</a>
+            <a class="navigation-item float-right"><span class="clickable-content"><i class="fab fa-github fa-xl"></i></span></a>
+            <a class="navigation-item float-right"><span class="clickable-content"><i class="fab fa-linkedin fa-xl"></i></span></a>
+        </nav>
+        <hr>
+        <div class="adjust-centre">
+            <hgroup>
+                <h1><strong>My blog</strong></h1>
+                <br>
+                <p><i>My top skills</i></p>
+            </hgroup>
+        </div>
+        <section class="container">
+            <article>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </article>
+        </section>
+        <hr>
+        <section class="container">
+            <div>
+                <h2><strong>Latest articles</strong></h2>
+            </div>
+            <br>
+            <ul>
+                <li><code>2024-11-27</code> &emsp; <a href="#">Lorem ipsum dolor sit amet</a> &emsp; <kbd>Tag</kbd> <kbd>Tag</kbd></li>
+                <li><code>2024-11-27</code> &emsp; <a href="#">Consectetur adipiscing elit</a> &emsp; <kbd>Tag</kbd> <kbd>Tag</kbd></li>
+                <li><code>2024-11-27</code> &emsp; <a href="#">Sed do eiusmod tempor incididunt</a> &emsp; <kbd>Tag</kbd> <kbd>Tag</kbd></li>
+                <li><code>2024-11-27</code> &emsp; <a href="#">Ut enim ad minim veniam</a> &emsp; <kbd>Tag</kbd> <kbd>Tag</kbd></li>
+            </ul>
+        </section>
+        <hr>
+        <section class="container">
+            <div>
+                <h2><strong>Featured articles</strong></h2>
+            </div>
+            <br>
+          <div class="grid">
+            <div class="row">
+                <div class="column">
+                    <section>
+                    <header>Lorem ipsum dolor sit amet, consectetur adipiscing elit</header>
+                    <br>
+                    <small>Ut enim ad minim veniam</small>
+                    <br><br>
+                    <div class="adjust-centre"><button>Read</button></div>
+                    </section>
+                </div>
+                <div class="column">
+                    <article>
+                    <header>Lorem ipsum dolor sit amet, consectetur adipiscing elit</header>
+                    <br>
+                    <small>Ut enim ad minim veniam</small>
+                    <br><br>
+                    <div class="adjust-centre"><button>Read</button></div>
+                    </article>
+                </div>
+                <div class="column">
+                    <article>
+                    <header>Lorem ipsum dolor sit amet, consectetur adipiscing elit</header>
+                    <br>
+                    <small>Ut enim ad minim veniam</small>
+                    <br><br>
+                    <div class="adjust-centre"><button>Read</button></div>
+                    </article>
+                </div>
+            </div>
+          </div>
+        </section>
+    <hr><br>
+    <footer>
+        <article class="secondary">
+                <p class="adjust-centre">&copy; Me 2025</p>
+        </article>
+    </footer>
+    </div>    
+    </main>
+
+</body>
+</html>
