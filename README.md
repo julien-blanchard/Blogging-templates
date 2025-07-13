@@ -1,6 +1,6 @@
 # Blogging-templates
 
-A collection of blogging templates using various popular *CSS* frameworks:
+A collection of blogging templates using the following popular *CSS* frameworks:
 
 * [**Milligram**](https://milligram.io/)
 * [**MVP**](https://andybrewer.github.io/mvp/)
