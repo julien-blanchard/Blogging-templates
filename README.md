@@ -7,4 +7,6 @@ A collection of blogging templates using the following popular *CSS* frameworks:
 * [**Pico**](https://picocss.com/)
 * [**Simple**](https://simplecss.org/)
 
-All templates share the same structure.
+All templates share the same design and structure.
+
+The purpose of this small project is to simplify the creation of static website generators such as [**Loulou**](https://github.com/julien-blanchard/Loulou).
