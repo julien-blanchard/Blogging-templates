@@ -1,5 +1,7 @@
 # Blogging-templates
 
+### **Description**
+
 A collection of blogging templates using the following popular *CSS* frameworks:
 
 * [**Milligram**](https://milligram.io/)
@@ -10,6 +12,8 @@ A collection of blogging templates using the following popular *CSS* frameworks:
 All templates share the same design and structure.
 
 The purpose of this small project is to simplify the creation of static website generators such as [**Loulou**](https://github.com/julien-blanchard/Loulou).
+
+### **Description**
 
 * **Simple.css (dark)**:
 
